@@ -1,6 +1,6 @@
 :root {
   --dimension: 150px;
-  --background: darkcyan;
+  --background: green;
   --borderColor: black;
   --borderWidth: 5px;
   --border: 7px solid black
@@ -14,21 +14,16 @@
   align-items: center;
 }
 
-.container{
-
-}
-
 .board {
   display: flex;
   flex-wrap: wrap;
   width: 320px;
-  background-color: cadetblue;
 }
 .element {
   display: flex;
   width: 100px;
   height: 100px;
-  border: 2px solid blue;
+  border: 2px solid var(--borderColor);
   background-color: aquamarine;
   font-size: 50px;
   align-items: center;
